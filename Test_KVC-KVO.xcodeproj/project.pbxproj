@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1916F1091E8BA7FC00870544 /* kvoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1916F1081E8BA7FC00870544 /* kvoImage.png */; };
+		1916F10C1E8BABB300870544 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1916F10B1E8BABB300870544 /* NSObject+KVO.m */; };
 		19D02D371E8B631A000B511C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D02D361E8B631A000B511C /* main.m */; };
 		19D02D3A1E8B631A000B511C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D02D391E8B631A000B511C /* AppDelegate.m */; };
 		19D02D3D1E8B631A000B511C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D02D3C1E8B631A000B511C /* ViewController.m */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1916F1081E8BA7FC00870544 /* kvoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvoImage.png; sourceTree = "<group>"; };
+		1916F10A1E8BABB300870544 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		1916F10B1E8BABB300870544 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 		19D02D321E8B631A000B511C /* Test_KVC-KVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test_KVC-KVO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D02D361E8B631A000B511C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19D02D381E8B631A000B511C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		19D02D341E8B631A000B511C /* Test_KVC-KVO */ = {
 			isa = PBXGroup;
 			children = (
+				1916F10A1E8BABB300870544 /* NSObject+KVO.h */,
+				1916F10B1E8BABB300870544 /* NSObject+KVO.m */,
+				1916F1081E8BA7FC00870544 /* kvoImage.png */,
 				19D02D381E8B631A000B511C /* AppDelegate.h */,
 				19D02D391E8B631A000B511C /* AppDelegate.m */,
 				19D02D3B1E8B631A000B511C /* ViewController.h */,
@@ -144,6 +152,7 @@
 			files = (
 				19D02D451E8B631A000B511C /* LaunchScreen.storyboard in Resources */,
 				19D02D421E8B631A000B511C /* Assets.xcassets in Resources */,
+				1916F1091E8BA7FC00870544 /* kvoImage.png in Resources */,
 				19D02D401E8B631A000B511C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +166,7 @@
 			files = (
 				19D02D3D1E8B631A000B511C /* ViewController.m in Sources */,
 				19D02D3A1E8B631A000B511C /* AppDelegate.m in Sources */,
+				1916F10C1E8BABB300870544 /* NSObject+KVO.m in Sources */,
 				19D02D4E1E8B63AB000B511C /* Person.m in Sources */,
 				19D02D371E8B631A000B511C /* main.m in Sources */,
 			);
