@@ -13,6 +13,7 @@
 		19D02D401E8B631A000B511C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D02D3E1E8B631A000B511C /* Main.storyboard */; };
 		19D02D421E8B631A000B511C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D02D411E8B631A000B511C /* Assets.xcassets */; };
 		19D02D451E8B631A000B511C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D02D431E8B631A000B511C /* LaunchScreen.storyboard */; };
+		19D02D4E1E8B63AB000B511C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D02D4D1E8B63AB000B511C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		19D02D411E8B631A000B511C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D02D441E8B631A000B511C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D02D461E8B631A000B511C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D02D4C1E8B63AB000B511C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		19D02D4D1E8B63AB000B511C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				19D02D431E8B631A000B511C /* LaunchScreen.storyboard */,
 				19D02D461E8B631A000B511C /* Info.plist */,
 				19D02D351E8B631A000B511C /* Supporting Files */,
+				19D02D4C1E8B63AB000B511C /* Person.h */,
+				19D02D4D1E8B63AB000B511C /* Person.m */,
 			);
 			path = "Test_KVC-KVO";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				19D02D3D1E8B631A000B511C /* ViewController.m in Sources */,
 				19D02D3A1E8B631A000B511C /* AppDelegate.m in Sources */,
+				19D02D4E1E8B63AB000B511C /* Person.m in Sources */,
 				19D02D371E8B631A000B511C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +315,7 @@
 				19D02D4B1E8B631A000B511C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
